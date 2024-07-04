@@ -24,8 +24,23 @@
   color: white;
 }
 
+.Button-pad {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #682e94;
+  color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Reset-result:hover,.Reset-input:hover {
+  background-color: green;
+  color: black;
+  padding: 5dpx;
 }
 
 @keyframes App-logo-spin {
